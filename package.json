@@ -4,6 +4,7 @@
   "description": "contract to send ether and tokens to multiple addresses at once",
   "main": "index.js",
   "scripts": {
+    "deploy": "node ./scripts/deploy.js",
     "ganache": "node ./scripts/start-ganache.js",
     "init-solhint": "./node_modules/.bin/solhint init-config",
     "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol contracts/**/**/*.sol contracts/**/**/**/*.sol contracts/*.sol",
